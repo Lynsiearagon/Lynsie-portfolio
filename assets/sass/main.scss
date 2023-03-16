@@ -889,11 +889,16 @@
 	ul.feature-icons {
 		list-style: none;
 		padding-left: 0;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-auto-rows: 0.2fr;
+		grid-gap: 10px; 
 
 		li {
 			@include icon;
-			// display: inline-block;
-			// margin: 0 0 (_size(element-margin) * 0.75) 0;
+			display: inline-block;
+			margin: 0 0 (_size(element-margin) * 0.75) 0;
 			// padding: 0.35em 0 0 3.5em;
 			display: inline-grid;
 			justify-content: center;

@@ -2376,17 +2376,20 @@ input, select, textarea {
 	ul.feature-icons {
 		list-style: none;
 		padding-left: 0;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-auto-rows: 0.2fr;
+		grid-gap: 10px; 
 	}
 
 		ul.feature-icons li {
 			text-decoration: none;
-			/* display: inline-block; */
 			display: inline-grid;
 			justify-content: center;
 			justify-items: center;
 			align-items: center;
-			/* margin: 0 0 1.6875em 0; */
-			/* padding: 0.35em 0 0 3.5em; */
+			margin: 0 auto;
 			position: relative;
 			vertical-align: top;
 			width: 32.5%;
@@ -3309,10 +3312,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			/* li.skills-item {
-				display: flex;
-				align-items: center;
-			} */
+			.skills-item {
+				/* display: flex;
+				align-items: center; */
+			}
 
 		/* Button */
 
