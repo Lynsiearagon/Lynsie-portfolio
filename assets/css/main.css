@@ -2676,11 +2676,19 @@ input, select, textarea {
 			padding-right: 2.5em;
 			vertical-align: middle;
 			width: 48%;
+			
 		}
 
 			.features article .image img {
 				display: block;
 				width: 100%;
+				border: #4acaa8 solid 15px;
+			}
+
+			.features article .image img:hover {
+				display: block;
+				width: 100%;
+				border: #8fdfca solid 15px;
 			}
 
 		.features article .inner {
