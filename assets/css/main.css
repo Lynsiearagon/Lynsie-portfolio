@@ -2682,13 +2682,13 @@ input, select, textarea {
 			.features article .image img {
 				display: block;
 				width: 100%;
-				border: #4acaa8 solid 15px;
+				border: #747474 solid 15px;
 			}
 
 			.features article .image img:hover {
 				display: block;
 				width: 100%;
-				border: #8fdfca solid 15px;
+				border: #4acaa8 solid 15px;
 			}
 
 		.features article .inner {
