@@ -2684,13 +2684,13 @@ input, select, textarea {
 			.features article .image img {
 				display: block;
 				width: 100%;
-				border: #747474 solid 15px;
+				border: #1f5565 solid 15px;
 			}
 
 			.features article .image img:hover {
 				display: block;
 				width: 100%;
-				border: #4acaa8 solid 15px;
+				border: #86d9c3 solid 15px;
 			}
 
 		.features article .inner {
@@ -2718,8 +2718,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #499e8f;
-		color: #d2f2e9;
+		/* background: #499e8f; */
+		background-image: linear-gradient(#1c5162, #86d9c3 );
+		color: #ffffff;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2738,14 +2739,15 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #ffffff;
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #ffffff;
 		}
 
 			#header a:hover {
+				/* font-weight: bold; */
 				color: #ffffff !important;
 			}
 
@@ -2790,7 +2792,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #1e5464;
 				}
 
 		#header > nav {
@@ -2818,15 +2820,15 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #1c5162 !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							font-weight: 900;
+							color: #ffffff !important;
 						}
 
 					#header > nav ul li:first-child {
