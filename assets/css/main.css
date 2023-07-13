@@ -3325,14 +3325,19 @@ input, select, textarea {
 					}
 
 			ul.feature-icons li {
-				display: block;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: center;
 				width: 100%;
+				font-size: 7pt;
 			}
 
-			.skills-item {
-				/* display: flex;
-				align-items: center; */
-			}
+			/* .skills-item {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			} */
 
 		/* Button */
 
